@@ -10,6 +10,10 @@ namespace TP_MOD5_KPL_1302210074
             String X = "Raihan Sulthon";
 
             sapa.SapaUSer(X);
+
+            DataGeneric<String> data_saved = new DataGeneric<string>("1302210074");
+
+            data_saved.PrintData();
         }
     }
 }
